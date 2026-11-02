@@ -16,6 +16,14 @@ _Avoid_: server, machine, instance, host
 The state of a Node whose Session has ended cleanly but which is kept, already paid for, so that a later Session can reuse it instead of a fresh Node.
 _Avoid_: warm, idle, standby, pooled
 
+**Size tier**:
+A Nether-defined size a Game Server runs at, which sets its Node's resources and the Game Server's storage limits.
+_Avoid_: plan, flavor, instance type
+
+**Region**:
+A Nether-defined area in which a Game Server's Nodes are placed.
+_Avoid_: zone, location, datacenter
+
 **Runtime**:
 The agent process on a Node that reports to the Orchestrator and drives the game container.
 _Avoid_: agent, daemon, worker
@@ -55,3 +63,4 @@ _Avoid_: user, account, tenant
 ## Flagged ambiguities
 
 - "server" alone is banned: say **Node** (the VM) or **Game Server** (the persistent game).
+- "plan" and "zone" are UpCloud's terms; Nether's own are **Size tier** and **Region**.
