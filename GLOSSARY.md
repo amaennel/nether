@@ -48,6 +48,14 @@ _Avoid_: terminal, shell, RCON
 The small, separate application that carries a Game Server's Console output from its Runtime to viewers. It is read-only: Console input goes through the Orchestrator.
 _Avoid_: console proxy, log server
 
+**Hostname**:
+The stable address players connect to for a Game Server, the same across Sessions whichever Node it runs on.
+_Avoid_: address, domain, IP
+
+**Stopped Responder**:
+The small application that answers players trying to reach a Game Server that isn't running, telling them it is offline. It never starts anything.
+_Avoid_: placeholder server, parking page
+
 **Idle**:
 The state of a running Game Server with no players online.
 _Avoid_: empty, inactive, paused
