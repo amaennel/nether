@@ -4,6 +4,9 @@
 //   node measure.ts                 inventory + boot timing (4 Nodes) + teardown
 //   node measure.ts --inventory     read-only: plans, prices, quotas, rate-limit burst
 //   node measure.ts --billing-probe one small Node for ~75 min, polling account credits
+//   node measure.ts --custom-image  bake a custom template (if results/template.json is
+//                                   missing), then boot stock vs baked Nodes per zone
+//   node measure.ts --delete-template  delete the template in results/template.json
 //   node measure.ts --cleanup       tear down anything left with the nether-spike label
 //
 // Auth: UPCLOUD_TOKEN (ucat_…) or UPCLOUD_USERNAME + UPCLOUD_PASSWORD.
@@ -18,7 +21,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const API = "https://api.upcloud.com/1.3";
 const ZONES = (process.env.ZONES ?? "de-fra1,fi-hel1").split(",");
 const PLAN = process.env.PLAN ?? "STARTER-2xCPU-4GB";
-const VARIANTS = ["apt", "getdocker"] as const;
+type Variant = "apt" | "getdocker" | "baked";
 const TIER_PLANS = ["STARTER-2xCPU-4GB", "STARTER-2xCPU-8GB", "STARTER-4xCPU-8GB", "STARTER-4xCPU-16GB"];
 const LABEL = "nether-spike";
 const NODE_TIMEOUT_MS = 25 * 60_000;
@@ -27,6 +30,8 @@ const runId = new Date().toISOString().replace(/[:.]/g, "-");
 const OUT = join(HERE, "results", runId);
 mkdirSync(OUT, { recursive: true });
 const STATE_FILE = join(HERE, "results", "live-nodes.json");
+const TEMPLATE_FILE = join(HERE, "results", "template.json");
+const BUILD_DISK_GB = Number(process.env.BUILD_DISK_GB ?? 10);
 
 const authHeader = process.env.UPCLOUD_TOKEN
   ? `Bearer ${process.env.UPCLOUD_TOKEN}`
@@ -281,14 +286,21 @@ async function verifyGone(nodes: Live[]) {
 
 type Milestones = Record<string, number>;
 
-async function measureNode(opts: { zone: string; variant: (typeof VARIANTS)[number]; template: string; pub: string; storageSize: number; storageTier: string; userDataTemplate: string }) {
+async function measureNode(opts: { zone: string; variant: Variant; template: string; pub: string; storageSize: number; storageTier: string; userDataTemplate: string }) {
   const title = `nether-spike-${opts.zone}-${opts.variant}`;
   const laptop: Milestones = {};
   const since = (t0: number) => Math.round((Date.now() - t0) / 100) / 10;
-  log(`${title}: creating`);
-  const { live, t0, apiAcceptedMs } = await createNode({ ...opts, plan: PLAN, title, userData: opts.userDataTemplate.replaceAll("__VARIANT__", opts.variant) });
+  log(`${title}: creating from ${opts.template}`);
+  let created;
+  try {
+    created = await createNode({ ...opts, plan: PLAN, title, userData: opts.userDataTemplate.replaceAll("__VARIANT__", opts.variant) });
+  } catch (e) {
+    log(`${title}: CREATE FAILED ${e}`);
+    return { title, zone: opts.zone, variant: opts.variant, plan: PLAN, template: opts.template, laptop, error: `create: ${e}` };
+  }
+  const { live, t0, apiAcceptedMs } = created;
   laptop.api_accepted = apiAcceptedMs / 1000;
-  const result: any = { title, zone: opts.zone, variant: opts.variant, plan: PLAN, uuid: live.uuid, ip: live.ip, laptop };
+  const result: any = { title, zone: opts.zone, variant: opts.variant, plan: PLAN, template: opts.template, uuid: live.uuid, ip: live.ip, laptop };
   try {
     const deadline = t0 + NODE_TIMEOUT_MS;
     let nodeLog = "";
@@ -347,6 +359,9 @@ async function measureNode(opts: { zone: string; variant: (typeof VARIANTS)[numb
 function nodeDurations(node: Record<string, { epoch: number; uptime: number }>) {
   const d = (a: string, b: string) => (node[a] && node[b] ? Math.round((node[b].epoch - node[a].epoch) * 10) / 10 : undefined);
   return {
+    "kernel boot → early unit (uptime, baked only)": node.early_unit_start?.uptime,
+    "kernel boot → metadata reachable (uptime, baked only)": node.early_metadata_ok?.uptime,
+    "kernel boot → docker ready (uptime, baked only)": node.early_docker_ready?.uptime,
     "kernel boot → user_data start (uptime)": node.userdata_start?.uptime,
     "apt update": d("apt_update_start", "apt_update_done"),
     "docker install (incl. apt update)": d("http_started", "docker_installed"),
@@ -394,10 +409,89 @@ async function billingProbe() {
   save("billing-probe.json", { plan, zone, samples, createdAt, deletedAt, verify: await verifyGone([live]) });
 }
 
+// ---------------------------------------------------------------- custom template
+
+type Template = { uuid: string; zone: string; title: string; sizeGb: number; sourceTemplate: string; timings: Record<string, number> };
+
+// Builder Node: stock template + bake-userdata.sh (Docker, image pulled, slow
+// boot services off, early-boot marker unit), which powers itself off. Its disk
+// is then templatized and the builder deleted.
+async function ensureTemplate(opts: { stockTemplate: string; planInfo: any; pub: string }): Promise<Template> {
+  if (process.env.TEMPLATE) return { uuid: process.env.TEMPLATE, zone: "?", title: "from TEMPLATE env", sizeGb: 0, sourceTemplate: "?", timings: {} };
+  try {
+    const t = JSON.parse(readFileSync(TEMPLATE_FILE, "utf8"));
+    if (t.pending) throw new Error(`template ${t.uuid} never came online; delete it with --delete-template`);
+    log(`Reusing template ${t.uuid} from results/template.json`);
+    return t;
+  } catch (e) {
+    if (String(e).includes("never came online")) throw e;
+  }
+
+  const zone = ZONES[0];
+  const title = `nether-spike-builder-${zone}`;
+  const timings: Record<string, number> = {};
+  const t0 = Date.now();
+  const since = () => Math.round((Date.now() - t0) / 100) / 10;
+  const userData = readFileSync(join(HERE, "bake-userdata.sh"), "utf8");
+  log(`Building template in ${zone} on a ${BUILD_DISK_GB} GB disk`);
+  let created;
+  try {
+    created = await createNode({ zone, plan: PLAN, template: opts.stockTemplate, title, pub: opts.pub, userData, storageSize: BUILD_DISK_GB, storageTier: opts.planInfo.storage_tier });
+  } catch (e) {
+    log(`Builder with ${BUILD_DISK_GB} GB disk refused (${e}); retrying with the plan's ${opts.planInfo.storage_size} GB`);
+    created = await createNode({ zone, plan: PLAN, template: opts.stockTemplate, title, pub: opts.pub, userData, storageSize: opts.planInfo.storage_size, storageTier: opts.planInfo.storage_tier });
+  }
+  const { live } = created;
+  try {
+    const deadline = Date.now() + NODE_TIMEOUT_MS;
+    let bakeLog = "";
+    for (;;) {
+      if (Date.now() > deadline) throw new Error("builder did not power off in time");
+      const { data } = await api("GET", `/server/${live.uuid}`);
+      if (!live.ip) live.ip = (data.server.ip_addresses?.ip_address as any[])?.find((a) => a.access === "public" && a.family === "IPv4")?.address;
+      if (data.server.state === "started" && !timings.started) timings.started = since();
+      if (live.ip) {
+        const text = await fetchNodeFile(live.ip, "bake.log");
+        if (text && text !== bakeLog) { bakeLog = text; log(`builder: ${text.trim().split("\n").at(-1)}`); }
+      }
+      if (data.server.state === "stopped" && timings.started) break;
+      await sleep(3000);
+    }
+    timings.powered_off = since();
+    save("bake.log", bakeLog);
+    if (!bakeLog.includes("bake_done")) throw new Error("builder stopped without bake_done; see bake.log");
+
+    const storage = live.storages[0];
+    const { data } = await api("POST", `/storage/${storage}/templatize`, { storage: { title: `nether-spike-template-${runId}` } });
+    const uuid = data.storage.uuid;
+    writeFileSync(TEMPLATE_FILE, JSON.stringify({ uuid, pending: true }));
+    for (;;) {
+      const { data: d } = await api("GET", `/storage/${uuid}`);
+      if (d.storage.state === "online") { timings.template_online = since(); break; }
+      await sleep(3000);
+    }
+    const tpl: Template = { uuid, zone, title: `nether-spike-template-${runId}`, sizeGb: (await api("GET", `/storage/${uuid}`)).data.storage.size, sourceTemplate: opts.stockTemplate, timings };
+    writeFileSync(TEMPLATE_FILE, JSON.stringify(tpl, null, 2));
+    log(`Template ${uuid} online after ${timings.template_online}s`);
+    return tpl;
+  } finally {
+    await teardown(live);
+  }
+}
+
+async function deleteTemplate() {
+  const t = JSON.parse(readFileSync(TEMPLATE_FILE, "utf8"));
+  await api("DELETE", `/storage/${t.uuid}`, undefined, [204, 404]);
+  writeFileSync(TEMPLATE_FILE.replace(".json", `.deleted-${runId}.json`), JSON.stringify(t, null, 2));
+  writeFileSync(TEMPLATE_FILE, "");
+  log(`Deleted template ${t.uuid}`);
+}
+
 // ---------------------------------------------------------------- main
 
 function pickTemplate(templates: { uuid: string; title: string; template_type: string }[]) {
-  const t = templates.find((t) => /24\.04/.test(t.title) && t.template_type === "cloud-init") ?? templates.find((t) => t.template_type === "cloud-init");
+  const plain = templates.filter((t) => t.template_type === "cloud-init" && !/nvidia|cuda|gpu/i.test(t.title));
+  const t = plain.find((t) => /24\.04/.test(t.title)) ?? plain[0];
   if (!t) throw new Error("No Ubuntu cloud-init template found; see templates-ubuntu.json");
   log(`Template: ${t.title} (${t.uuid})`);
   return t.uuid;
@@ -419,19 +513,18 @@ async function main() {
   const mode = process.argv[2];
   if (mode === "--cleanup") return cleanup();
   if (mode === "--billing-probe") return billingProbe();
+  if (mode === "--delete-template") return deleteTemplate();
 
   const inv = await inventory();
   const burst = await rateLimitBurst();
   if (mode === "--inventory") return writeSummary(inv, burst, []);
 
-  const template = pickTemplate(inv.ubuntuTemplates);
+  const stockTemplate = pickTemplate(inv.ubuntuTemplates);
   const planInfo = inv.starterPlans.find((p: any) => p.name === PLAN);
   if (!planInfo) throw new Error(`${PLAN} not in /plan`);
   const { keyPath, pub } = sshKey();
   log(`SSH (for debugging while Nodes run): ssh -i ${keyPath} -o StrictHostKeyChecking=no spike@<ip>`);
   const userDataTemplate = readFileSync(join(HERE, "node-userdata.sh"), "utf8");
-
-  let nodes: Live[] = [];
   const onSignal = async () => {
     log("Interrupted: tearing down");
     for (const n of readLive()) { try { await teardown(n); } catch (e) { log(`teardown ${n.title} failed: ${e}`); } }
@@ -440,17 +533,26 @@ async function main() {
   process.on("SIGINT", onSignal);
   process.on("SIGTERM", onSignal);
 
-  const results = await Promise.all(
-    ZONES.flatMap((zone) => VARIANTS.map((variant) => measureNode({ zone, variant, template, pub, storageSize: planInfo.storage_size, storageTier: planInfo.storage_tier, userDataTemplate }))),
+  const bakedTemplate = mode === "--custom-image" ? await ensureTemplate({ stockTemplate, planInfo, pub }) : undefined;
+  const runs: { zone: string; variant: Variant; template: string }[] = ZONES.flatMap((zone) =>
+    bakedTemplate
+      ? [{ zone, variant: "apt" as const, template: stockTemplate }, { zone, variant: "baked" as const, template: bakedTemplate.uuid }]
+      : (["apt", "getdocker"] as const).map((variant) => ({ zone, variant, template: stockTemplate })),
   );
-  nodes = results.map((r) => r.live);
+
+  const results = await Promise.all(
+    runs.map((r) => measureNode({ ...r, pub, storageSize: planInfo.storage_size, storageTier: planInfo.storage_tier, userDataTemplate })),
+  );
+  const nodes: Live[] = results.map((r) => r.live).filter(Boolean);
   const verify = await verifyGone(nodes);
   save("verify-teardown.json", verify);
-  writeSummary(inv, burst, results, verify);
+  writeSummary(inv, burst, results, verify, bakedTemplate);
+  if (bakedTemplate) log(`Template ${bakedTemplate.uuid} is kept (billed as storage). Delete it with --delete-template.`);
 }
 
-function writeSummary(inv: any, burst: any, results: any[], verify?: unknown) {
+function writeSummary(inv: any, burst: any, results: any[], verify?: unknown, template?: unknown) {
   const lines: string[] = [`# UpCloud spike ${runId}`, ""];
+  if (template) lines.push("## Custom template", "", "```json", JSON.stringify(template, null, 2), "```", "");
   lines.push("## Account quotas", "", "```json", JSON.stringify(inv.account.resource_limits, null, 2), "```", "");
   lines.push("## Starter plans (/plan)", "", "| plan | cores | memory MB | storage GB | tier |", "|---|---|---|---|---|");
   for (const p of inv.starterPlans) lines.push(`| ${p.name} | ${p.core_number} | ${p.memory_amount} | ${p.storage_size} | ${p.storage_tier} |`);
@@ -460,7 +562,7 @@ function writeSummary(inv: any, burst: any, results: any[], verify?: unknown) {
   const seenHeaders = apiCalls.filter((c) => c.headers);
   lines.push(`Rate-limit-ish headers seen on any call: ${seenHeaders.length ? JSON.stringify(seenHeaders[0].headers) : "none"}`, `Non-2xx statuses: ${JSON.stringify(apiCalls.filter((c) => c.status >= 300).map((c) => `${c.method} ${c.path} ${c.status}`))}`, "");
   for (const r of results) {
-    lines.push(`## ${r.title}`, "", `zone ${r.zone}, variant ${r.variant}, plan ${r.plan}${r.timedOut ? ", **TIMED OUT**" : ""}${r.error ? `, **ERROR** ${r.error}` : ""}`, "");
+    lines.push(`## ${r.title}`, "", `zone ${r.zone}, variant ${r.variant}, template ${r.template}, plan ${r.plan}${r.timedOut ? ", **TIMED OUT**" : ""}${r.error ? `, **ERROR** ${r.error}` : ""}`, "");
     lines.push("Laptop-observed, seconds since POST /server (±1 s poll):", "", "```json", JSON.stringify(r.laptop, null, 2), "```", "");
     lines.push("Node-side durations (s):", "", "```json", JSON.stringify(nodeDurations(r.node ?? {}), null, 2), "```", "");
     lines.push(`Teardown: ${JSON.stringify(r.teardown ?? r.teardownError)}`, "");

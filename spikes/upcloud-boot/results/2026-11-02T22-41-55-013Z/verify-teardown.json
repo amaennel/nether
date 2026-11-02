@@ -1,0 +1,48 @@
+{
+  "nether-spike-de-fra1-apt": {
+    "serverStatus": 404,
+    "storages": [
+      {
+        "storage": "016b6d72-3961-4f54-9596-036bc6904e32",
+        "status": 404
+      }
+    ],
+    "ip": "85.9.204.71",
+    "ipStatus": 404
+  },
+  "nether-spike-de-fra1-getdocker": {
+    "serverStatus": 404,
+    "storages": [
+      {
+        "storage": "010d37ad-e5ac-4413-a431-5f38aa836073",
+        "status": 404
+      }
+    ],
+    "ip": "85.9.200.240",
+    "ipStatus": 404
+  },
+  "nether-spike-fi-hel1-apt": {
+    "serverStatus": 404,
+    "storages": [
+      {
+        "storage": "012cf7f6-4d46-458d-bf71-627a8a19fcd9",
+        "status": 404
+      }
+    ],
+    "ip": "94.237.117.128",
+    "ipStatus": 404
+  },
+  "nether-spike-fi-hel1-getdocker": {
+    "serverStatus": 404,
+    "storages": [
+      {
+        "storage": "013ff6a3-d9fb-489f-ba8d-bff3c0d18dde",
+        "status": 404
+      }
+    ],
+    "ip": "94.237.115.145",
+    "ipStatus": 404
+  },
+  "labelledServersRemaining": [],
+  "floatingIps": []
+}

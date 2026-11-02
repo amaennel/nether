@@ -1,0 +1,122 @@
+{
+  "boot_order": "disk",
+  "core_number": "2",
+  "created": 1793659318,
+  "devices": {
+    "device": []
+  },
+  "firewall": "off",
+  "firewall_private": "off",
+  "firewall_private_default_incoming_action": "drop",
+  "firewall_private_default_outgoing_action": "accept",
+  "firewall_public_default_incoming_action": "drop",
+  "firewall_public_default_outgoing_action": "accept",
+  "host": 5300306563,
+  "hostname": "nether-spike-fi-hel1-apt",
+  "ip_addresses": {
+    "ip_address": [
+      {
+        "access": "public",
+        "address": "94.237.117.128",
+        "family": "IPv4",
+        "part_of_plan": "yes"
+      }
+    ]
+  },
+  "labels": {
+    "label": [
+      {
+        "key": "nether-spike",
+        "value": "2026-11-02T22-41-55-013Z"
+      }
+    ]
+  },
+  "license": 0,
+  "memory_amount": "4096",
+  "metadata": "yes",
+  "networking": {
+    "interfaces": {
+      "interface": [
+        {
+          "bootable": "no",
+          "index": 1,
+          "ip_addresses": {
+            "ip_address": [
+              {
+                "address": "94.237.117.128",
+                "dhcp_provided": "yes",
+                "family": "IPv4",
+                "floating": "no",
+                "release_policy": "release"
+              }
+            ]
+          },
+          "mac": "96:3f:b9:7b:7e:75",
+          "network": "03081f13-73cd-4c11-9bb0-6ff4c73bea00",
+          "source_ip_filtering": "yes",
+          "type": "public"
+        }
+      ]
+    }
+  },
+  "nic_model": "virtio",
+  "plan": "STARTER-2xCPU-4GB",
+  "plan_ipv4_bytes": "0",
+  "plan_ipv6_bytes": "0",
+  "progress": "0",
+  "remote_access_enabled": "no",
+  "remote_access_password": "dgCbw7HD",
+  "remote_access_type": "vnc",
+  "server_group": null,
+  "simple_backup": "no",
+  "state": "maintenance",
+  "storage_devices": {
+    "storage_device": [
+      {
+        "address": "virtio:0",
+        "boot_disk": "0",
+        "labels": [
+          {
+            "key": "_os_architecture",
+            "value": "64"
+          },
+          {
+            "key": "_os_brand_name",
+            "value": "Ubuntu"
+          },
+          {
+            "key": "_os_brand_version",
+            "value": "24.04"
+          },
+          {
+            "key": "_os_main_category",
+            "value": "Linux"
+          },
+          {
+            "key": "_os_type",
+            "value": "ubuntu"
+          },
+          {
+            "key": "_template_uuid",
+            "value": "01000000-0000-4000-8000-000030700200"
+          }
+        ],
+        "part_of_plan": "yes",
+        "storage": "012cf7f6-4d46-458d-bf71-627a8a19fcd9",
+        "storage_encrypted": "no",
+        "storage_size": 30,
+        "storage_tier": "standard",
+        "storage_title": "nether-spike-fi-hel1-apt-disk",
+        "type": "disk"
+      }
+    ]
+  },
+  "tags": {
+    "tag": []
+  },
+  "timezone": "UTC",
+  "title": "nether-spike-fi-hel1-apt",
+  "uuid": "00548d21-2d58-4908-8670-37f61d3495f8",
+  "video_model": "cirrus",
+  "zone": "fi-hel1"
+}

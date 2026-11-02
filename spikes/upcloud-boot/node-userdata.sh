@@ -22,15 +22,19 @@ if [ "__VARIANT__" = "apt" ]; then
   $A update > "$D/apt-update.log" 2>&1
   m apt_update_done
   $A install -y docker.io > "$D/docker-install.log" 2>&1
-else
+elif [ "__VARIANT__" = "getdocker" ]; then
   curl -fsSL https://get.docker.com | sh > "$D/docker-install.log" 2>&1
 fi
+# "baked": Docker and the image are already in the custom template.
+until docker info > /dev/null 2>&1; do sleep 0.2; done
 m docker_installed
 docker version --format '{{.Server.Version}}' > "$D/docker-version.txt" 2>&1
 
-m pull_start
-docker pull itzg/minecraft-server > "$D/pull.log" 2>&1
-m image_pulled
+if [ "__VARIANT__" != "baked" ]; then
+  m pull_start
+  docker pull itzg/minecraft-server > "$D/pull.log" 2>&1
+  m image_pulled
+fi
 docker image inspect itzg/minecraft-server --format '{{.Size}}' > "$D/image-size.txt" 2>&1
 
 # Heap = plan RAM - 1.5 GiB (Size tiers and region model): 4 GiB plan -> 2560M.

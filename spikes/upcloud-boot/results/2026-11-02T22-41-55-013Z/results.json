@@ -1,0 +1,466 @@
+[
+  {
+    "title": "nether-spike-de-fra1-apt",
+    "zone": "de-fra1",
+    "variant": "apt",
+    "plan": "STARTER-2xCPU-4GB",
+    "uuid": "00805b8e-a233-4244-a1ee-1b20e797687d",
+    "ip": "85.9.204.71",
+    "laptop": {
+      "api_accepted": 15.198,
+      "state_started": 100.7,
+      "ssh_banner": 111.6,
+      "userdata_start": 114.8,
+      "http_started": 114.8,
+      "apt_update_start": 114.8,
+      "apt_update_done": 126.4,
+      "docker_installed": 128.5,
+      "pull_start": 128.5,
+      "image_pulled": 140.1,
+      "container_started": 142.3,
+      "userdata_end": 142.3,
+      "cloud_init_done": 142.3,
+      "ci_artifacts_done": 144.4,
+      "mc_done": 174.9,
+      "slp_ok": 175,
+      "warm_stop_start": 204.5,
+      "warm_stopped": 204.5,
+      "warm_done": 226.5,
+      "mc_artifacts_done": 226.5
+    },
+    "slp": {
+      "description": "A Minecraft Server",
+      "players": {
+        "max": 20,
+        "online": 0
+      },
+      "version": {
+        "name": "26.3",
+        "protocol": 777
+      },
+      "enforcesSecureChat": true
+    },
+    "node": {
+      "userdata_start": {
+        "epoch": 1793659432.428229,
+        "uptime": 15.78
+      },
+      "http_started": {
+        "epoch": 1793659432.43173,
+        "uptime": 15.78
+      },
+      "apt_update_start": {
+        "epoch": 1793659432.4666805,
+        "uptime": 15.83
+      },
+      "apt_update_done": {
+        "epoch": 1793659444.2358184,
+        "uptime": 27.59
+      },
+      "docker_installed": {
+        "epoch": 1793659445.6091065,
+        "uptime": 28.96
+      },
+      "pull_start": {
+        "epoch": 1793659445.7790549,
+        "uptime": 29.13
+      },
+      "image_pulled": {
+        "epoch": 1793659458.0637257,
+        "uptime": 41.42
+      },
+      "container_started": {
+        "epoch": 1793659459.3298006,
+        "uptime": 42.68
+      },
+      "userdata_end": {
+        "epoch": 1793659459.3455634,
+        "uptime": 42.7
+      },
+      "cloud_init_done": {
+        "epoch": 1793659460.1030643,
+        "uptime": 43.45
+      },
+      "ci_artifacts_done": {
+        "epoch": 1793659462.0802221,
+        "uptime": 45.43
+      },
+      "mc_done": {
+        "epoch": 1793659491.48715,
+        "uptime": 74.84
+      },
+      "warm_stop_start": {
+        "epoch": 1793659521.4944057,
+        "uptime": 104.85
+      },
+      "warm_stopped": {
+        "epoch": 1793659522.2430782,
+        "uptime": 105.59
+      },
+      "warm_done": {
+        "epoch": 1793659543.6987503,
+        "uptime": 127.05
+      },
+      "mc_artifacts_done": {
+        "epoch": 1793659543.7583897,
+        "uptime": 127.11
+      }
+    },
+    "teardown": {
+      "stoppedMs": 19190,
+      "deletedMs": 19360
+    },
+    "live": {
+      "uuid": "00805b8e-a233-4244-a1ee-1b20e797687d",
+      "zone": "de-fra1",
+      "title": "nether-spike-de-fra1-apt",
+      "ip": "85.9.204.71",
+      "storages": [
+        "016b6d72-3961-4f54-9596-036bc6904e32"
+      ]
+    }
+  },
+  {
+    "title": "nether-spike-de-fra1-getdocker",
+    "zone": "de-fra1",
+    "variant": "getdocker",
+    "plan": "STARTER-2xCPU-4GB",
+    "uuid": "00ec183e-05c7-422c-bf06-8222371e3e89",
+    "ip": "85.9.200.240",
+    "laptop": {
+      "api_accepted": 8.329,
+      "state_started": 79.4,
+      "ssh_banner": 87.3,
+      "userdata_start": 90.5,
+      "http_started": 90.5,
+      "docker_installed": 148.5,
+      "pull_start": 148.5,
+      "image_pulled": 159.9,
+      "container_started": 160.9,
+      "userdata_end": 160.9,
+      "cloud_init_done": 162,
+      "ci_artifacts_done": 163.1,
+      "mc_done": 187.5,
+      "slp_ok": 187.6,
+      "warm_stop_start": 218.2,
+      "warm_stopped": 218.2,
+      "warm_done": 236.1,
+      "mc_artifacts_done": 236.1
+    },
+    "slp": {
+      "description": "A Minecraft Server",
+      "players": {
+        "max": 20,
+        "online": 0
+      },
+      "version": {
+        "name": "26.3",
+        "protocol": 777
+      },
+      "enforcesSecureChat": true
+    },
+    "node": {
+      "userdata_start": {
+        "epoch": 1793659407.827206,
+        "uptime": 13.07
+      },
+      "http_started": {
+        "epoch": 1793659407.8307302,
+        "uptime": 13.08
+      },
+      "docker_installed": {
+        "epoch": 1793659465.926538,
+        "uptime": 71.17
+      },
+      "pull_start": {
+        "epoch": 1793659465.9589055,
+        "uptime": 71.2
+      },
+      "image_pulled": {
+        "epoch": 1793659477.103751,
+        "uptime": 82.35
+      },
+      "container_started": {
+        "epoch": 1793659478.3521621,
+        "uptime": 83.6
+      },
+      "userdata_end": {
+        "epoch": 1793659478.3620317,
+        "uptime": 83.61
+      },
+      "cloud_init_done": {
+        "epoch": 1793659478.983879,
+        "uptime": 84.23
+      },
+      "ci_artifacts_done": {
+        "epoch": 1793659480.618245,
+        "uptime": 85.86
+      },
+      "mc_done": {
+        "epoch": 1793659505.4031432,
+        "uptime": 110.65
+      },
+      "warm_stop_start": {
+        "epoch": 1793659535.4082186,
+        "uptime": 140.65
+      },
+      "warm_stopped": {
+        "epoch": 1793659536.241923,
+        "uptime": 141.49
+      },
+      "warm_done": {
+        "epoch": 1793659553.7669735,
+        "uptime": 159.02
+      },
+      "mc_artifacts_done": {
+        "epoch": 1793659553.8185575,
+        "uptime": 159.06
+      }
+    },
+    "teardown": {
+      "stoppedMs": 21047,
+      "deletedMs": 21214
+    },
+    "live": {
+      "uuid": "00ec183e-05c7-422c-bf06-8222371e3e89",
+      "zone": "de-fra1",
+      "title": "nether-spike-de-fra1-getdocker",
+      "ip": "85.9.200.240",
+      "storages": [
+        "010d37ad-e5ac-4413-a431-5f38aa836073"
+      ]
+    }
+  },
+  {
+    "title": "nether-spike-fi-hel1-apt",
+    "zone": "fi-hel1",
+    "variant": "apt",
+    "plan": "STARTER-2xCPU-4GB",
+    "uuid": "00548d21-2d58-4908-8670-37f61d3495f8",
+    "ip": "94.237.117.128",
+    "laptop": {
+      "api_accepted": 11.975,
+      "state_started": 111.7,
+      "ssh_banner": 124.8,
+      "userdata_start": 128.2,
+      "http_started": 128.2,
+      "apt_update_start": 128.2,
+      "apt_update_done": 139.3,
+      "docker_installed": 140.4,
+      "pull_start": 140.4,
+      "image_pulled": 152.8,
+      "container_started": 155,
+      "userdata_end": 155,
+      "cloud_init_done": 155,
+      "ci_artifacts_done": 157.3,
+      "mc_done": 181.5,
+      "slp_ok": 181.9,
+      "warm_stop_start": 211.1,
+      "warm_stopped": 212.2,
+      "warm_done": 232.1,
+      "mc_artifacts_done": 232.1
+    },
+    "slp": {
+      "description": "A Minecraft Server",
+      "players": {
+        "max": 20,
+        "online": 0
+      },
+      "version": {
+        "name": "26.3",
+        "protocol": 777
+      },
+      "enforcesSecureChat": true
+    },
+    "node": {
+      "userdata_start": {
+        "epoch": 1793659445.3006608,
+        "uptime": 16.18
+      },
+      "http_started": {
+        "epoch": 1793659445.3042927,
+        "uptime": 16.18
+      },
+      "apt_update_start": {
+        "epoch": 1793659445.3569548,
+        "uptime": 16.23
+      },
+      "apt_update_done": {
+        "epoch": 1793659456.4763887,
+        "uptime": 27.35
+      },
+      "docker_installed": {
+        "epoch": 1793659457.6698442,
+        "uptime": 28.55
+      },
+      "pull_start": {
+        "epoch": 1793659457.9546323,
+        "uptime": 28.83
+      },
+      "image_pulled": {
+        "epoch": 1793659470.7109122,
+        "uptime": 41.59
+      },
+      "container_started": {
+        "epoch": 1793659472.0710518,
+        "uptime": 42.95
+      },
+      "userdata_end": {
+        "epoch": 1793659472.0826366,
+        "uptime": 42.97
+      },
+      "cloud_init_done": {
+        "epoch": 1793659472.6065967,
+        "uptime": 43.48
+      },
+      "ci_artifacts_done": {
+        "epoch": 1793659474.4999676,
+        "uptime": 45.38
+      },
+      "mc_done": {
+        "epoch": 1793659498.6088293,
+        "uptime": 69.49
+      },
+      "warm_stop_start": {
+        "epoch": 1793659528.616112,
+        "uptime": 99.49
+      },
+      "warm_stopped": {
+        "epoch": 1793659529.3935654,
+        "uptime": 100.27
+      },
+      "warm_done": {
+        "epoch": 1793659549.2828352,
+        "uptime": 120.16
+      },
+      "mc_artifacts_done": {
+        "epoch": 1793659549.3541076,
+        "uptime": 120.23
+      }
+    },
+    "teardown": {
+      "stoppedMs": 21255,
+      "deletedMs": 21455
+    },
+    "live": {
+      "uuid": "00548d21-2d58-4908-8670-37f61d3495f8",
+      "zone": "fi-hel1",
+      "title": "nether-spike-fi-hel1-apt",
+      "ip": "94.237.117.128",
+      "storages": [
+        "012cf7f6-4d46-458d-bf71-627a8a19fcd9"
+      ]
+    }
+  },
+  {
+    "title": "nether-spike-fi-hel1-getdocker",
+    "zone": "fi-hel1",
+    "variant": "getdocker",
+    "plan": "STARTER-2xCPU-4GB",
+    "uuid": "00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "ip": "94.237.115.145",
+    "laptop": {
+      "api_accepted": 10.625,
+      "state_started": 110.6,
+      "ssh_banner": 121.6,
+      "userdata_start": 125,
+      "http_started": 125,
+      "docker_installed": 185.9,
+      "pull_start": 185.9,
+      "image_pulled": 199.8,
+      "container_started": 199.8,
+      "userdata_end": 199.8,
+      "cloud_init_done": 199.8,
+      "ci_artifacts_done": 201,
+      "mc_done": 224.2,
+      "slp_ok": 224.4,
+      "warm_stop_start": 253.5,
+      "warm_stopped": 254.6,
+      "warm_done": 273.3,
+      "mc_artifacts_done": 273.3
+    },
+    "slp": {
+      "description": "A Minecraft Server",
+      "players": {
+        "max": 20,
+        "online": 0
+      },
+      "version": {
+        "name": "26.3",
+        "protocol": 777
+      },
+      "enforcesSecureChat": true
+    },
+    "node": {
+      "userdata_start": {
+        "epoch": 1793659442.5531583,
+        "uptime": 15.88
+      },
+      "http_started": {
+        "epoch": 1793659442.5562384,
+        "uptime": 15.88
+      },
+      "docker_installed": {
+        "epoch": 1793659503.506721,
+        "uptime": 76.83
+      },
+      "pull_start": {
+        "epoch": 1793659503.5461733,
+        "uptime": 76.87
+      },
+      "image_pulled": {
+        "epoch": 1793659515.0989673,
+        "uptime": 88.42
+      },
+      "container_started": {
+        "epoch": 1793659516.2962134,
+        "uptime": 89.62
+      },
+      "userdata_end": {
+        "epoch": 1793659516.3029315,
+        "uptime": 89.64
+      },
+      "cloud_init_done": {
+        "epoch": 1793659517.0982416,
+        "uptime": 90.42
+      },
+      "ci_artifacts_done": {
+        "epoch": 1793659518.8616986,
+        "uptime": 92.19
+      },
+      "mc_done": {
+        "epoch": 1793659541.5186749,
+        "uptime": 114.84
+      },
+      "warm_stop_start": {
+        "epoch": 1793659571.5260577,
+        "uptime": 144.85
+      },
+      "warm_stopped": {
+        "epoch": 1793659572.3093977,
+        "uptime": 145.63
+      },
+      "warm_done": {
+        "epoch": 1793659590.6568213,
+        "uptime": 163.98
+      },
+      "mc_artifacts_done": {
+        "epoch": 1793659590.7429957,
+        "uptime": 164.07
+      }
+    },
+    "teardown": {
+      "stoppedMs": 24371,
+      "deletedMs": 24556
+    },
+    "live": {
+      "uuid": "00e8774f-9434-41bb-97b7-9e40a71438aa",
+      "zone": "fi-hel1",
+      "title": "nether-spike-fi-hel1-getdocker",
+      "ip": "94.237.115.145",
+      "storages": [
+        "013ff6a3-d9fb-489f-ba8d-bff3c0d18dde"
+      ]
+    }
+  }
+]

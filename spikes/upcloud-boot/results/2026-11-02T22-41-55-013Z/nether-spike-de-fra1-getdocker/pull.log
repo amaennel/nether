@@ -1,0 +1,78 @@
+Using default tag: latest
+latest: Pulling from itzg/minecraft-server
+cb0f557dfd9d: Pulling fs layer
+7a48b8f0e5c7: Pulling fs layer
+a0a13467ca29: Pulling fs layer
+0b66beed9de8: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+6275d18c9cfc: Pulling fs layer
+f01868b16987: Pulling fs layer
+0f985f689275: Pulling fs layer
+1b759742d8df: Pulling fs layer
+d59151bfa36c: Pulling fs layer
+dd77c39cb870: Pulling fs layer
+3d8e4abf8504: Pulling fs layer
+f07715c8c765: Pulling fs layer
+2fcb3b9e1487: Pulling fs layer
+66c6f69a2508: Pulling fs layer
+24e2abe6f9a4: Pulling fs layer
+e8e307f8223c: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+7be1946879a4: Pulling fs layer
+d2d391ecb699: Pulling fs layer
+29e8a93949e2: Pulling fs layer
+ba19a9617591: Pulling fs layer
+62ba7b2a21cb: Pulling fs layer
+64174bad9733: Pulling fs layer
+402a6694804e: Pulling fs layer
+1b759742d8df: Download complete
+f07715c8c765: Download complete
+d59151bfa36c: Download complete
+dd77c39cb870: Download complete
+cb0f557dfd9d: Download complete
+3d8e4abf8504: Download complete
+a0a13467ca29: Download complete
+7a48b8f0e5c7: Download complete
+402a6694804e: Download complete
+4f4fb700ef54: Download complete
+6275d18c9cfc: Download complete
+2fcb3b9e1487: Download complete
+66c6f69a2508: Download complete
+24e2abe6f9a4: Download complete
+0f985f689275: Download complete
+0b66beed9de8: Download complete
+7be1946879a4: Download complete
+d2d391ecb699: Download complete
+ba19a9617591: Download complete
+62ba7b2a21cb: Download complete
+e8e307f8223c: Download complete
+64174bad9733: Download complete
+29e8a93949e2: Download complete
+7a48b8f0e5c7: Pull complete
+f01868b16987: Download complete
+a0a13467ca29: Pull complete
+4f4fb700ef54: Pull complete
+6275d18c9cfc: Pull complete
+0b66beed9de8: Pull complete
+1b759742d8df: Pull complete
+0f985f689275: Pull complete
+f01868b16987: Pull complete
+dd77c39cb870: Pull complete
+3d8e4abf8504: Pull complete
+f07715c8c765: Pull complete
+2fcb3b9e1487: Pull complete
+66c6f69a2508: Pull complete
+24e2abe6f9a4: Pull complete
+d59151bfa36c: Pull complete
+d2d391ecb699: Pull complete
+e8e307f8223c: Pull complete
+cb0f557dfd9d: Pull complete
+402a6694804e: Pull complete
+7be1946879a4: Pull complete
+ba19a9617591: Pull complete
+62ba7b2a21cb: Pull complete
+64174bad9733: Pull complete
+29e8a93949e2: Pull complete
+Digest: sha256:e2fabc536673f8c6b343055c93f7a73e10caa79cd3368f645987593c65adf1e0
+Status: Downloaded newer image for itzg/minecraft-server:latest
+docker.io/itzg/minecraft-server:latest

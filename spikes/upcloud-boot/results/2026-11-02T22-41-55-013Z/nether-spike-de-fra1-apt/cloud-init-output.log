@@ -1,0 +1,85 @@
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'init-local' at Mon, 02 Nov 2026 22:43:43 +0000. Up 6.41 seconds.
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'init' at Mon, 02 Nov 2026 22:43:46 +0000. Up 9.94 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |         85.9.204.71          | 255.255.252.0 | global | 96:3f:b9:7b:60:1c |
+ci-info: |  eth0  | True | fe80::943f:b9ff:fe7b:601c/64 |       .       |  link  | 96:3f:b9:7b:60:1c |
+ci-info: |   lo   | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128            |       .       |  host  |         .         |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+------------+-----------------+-----------+-------+
+ci-info: | Route | Destination  |  Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+--------------+------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 85.9.204.1 |     0.0.0.0     |    eth0   |   UG  |
+ci-info: |   1   |  85.9.204.0  |  0.0.0.0   |  255.255.252.0  |    eth0   |   U   |
+ci-info: |   2   |  85.9.204.1  |  0.0.0.0   | 255.255.255.255 |    eth0   |   UH  |
+ci-info: |   3   | 94.237.40.9  | 85.9.204.1 | 255.255.255.255 |    eth0   |  UGH  |
+ci-info: |   4   | 94.237.127.9 | 85.9.204.1 | 255.255.255.255 |    eth0   |  UGH  |
+ci-info: +-------+--------------+------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   2   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   3   |  multicast  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:6WCMDqfWg1/HtnuSfsO5rtHnloV19r9++2fw6sy94hQ root@nether-spike-de-fra1-apt
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|                 |
+|     o   .    . o|
+|  . o + S    E o.|
+|   B . + .  . + .|
+|  + + . *o...+ o.|
+| . . o ooo*o++ .*|
+|    .  .=Bo+ooBBX|
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:5myZva+08MPOBcb4IFmMj3iBUOvaJ8HwJSJ6tLuSHb8 root@nether-spike-de-fra1-apt
+The key's randomart image is:
++---[ECDSA 256]---+
+|  ...            |
+|   . o o         |
+|. + + + o        |
+|.o B + * o       |
+|. o * = S +      |
+| ..+ o = B .     |
+| oooo . B.+ .    |
+|o ...o . =o+     |
+| .. E.   .B+.    |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:7xXln/h4AQcdNM2IIp3EXmvYsttmrVaWUZpKqUTe0nw root@nether-spike-de-fra1-apt
+The key's randomart image is:
++--[ED25519 256]--+
+|         +.. .o*o|
+|        . * o...=|
+|         = O oo+ |
+|          B X+E. |
+|        S. B.o+o |
+|         .o ..=o.|
+|          .o.= .o|
+|         ...= +. |
+|          .+.o.. |
++----[SHA256]-----+
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'modules:config' at Mon, 02 Nov 2026 22:43:50 +0000. Up 13.71 seconds.
+2026-11-02 22:43:50,503 - lifecycle.py[DEPRECATED]: Module has been renamed from cc_ubuntu_advantage to cc_ubuntu_pro. Update any references in /etc/cloud/cloud.cfg is deprecated in 24.1 and scheduled to be removed in 29.1.
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'modules:final' at Mon, 02 Nov 2026 22:43:52 +0000. Up 15.70 seconds.
+2026-11-02 22:43:52,408 - modules.py[WARNING]: Could not find module named cc_refresh_rmc_and_interface (searched ['cc_refresh_rmc_and_interface', 'cloudinit.config.cc_refresh_rmc_and_interface'])
+Cloud-init v. 26.1-0ubuntu1~24.04.1 finished at Mon, 02 Nov 2026 22:44:19 +0000. Datasource DataSourceUpCloudLocal.  Up 42.88 seconds

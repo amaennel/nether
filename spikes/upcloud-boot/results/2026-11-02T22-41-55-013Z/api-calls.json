@@ -1,0 +1,933 @@
+[
+  {
+    "at": "2026-11-02T22:41:55.018Z",
+    "method": "GET",
+    "path": "/account",
+    "status": 200,
+    "ms": 243
+  },
+  {
+    "at": "2026-11-02T22:41:55.037Z",
+    "method": "GET",
+    "path": "/zone",
+    "status": 200,
+    "ms": 248
+  },
+  {
+    "at": "2026-11-02T22:41:55.037Z",
+    "method": "GET",
+    "path": "/plan",
+    "status": 200,
+    "ms": 294
+  },
+  {
+    "at": "2026-11-02T22:41:55.037Z",
+    "method": "GET",
+    "path": "/price",
+    "status": 200,
+    "ms": 1344
+  },
+  {
+    "at": "2026-11-02T22:41:57.252Z",
+    "method": "GET",
+    "path": "/storage/template",
+    "status": 200,
+    "ms": 169
+  },
+  {
+    "at": "2026-11-02T22:41:57.989Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 8326
+  },
+  {
+    "at": "2026-11-02T22:42:06.318Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:41:57.990Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 10624
+  },
+  {
+    "at": "2026-11-02T22:42:08.615Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 73
+  },
+  {
+    "at": "2026-11-02T22:41:57.990Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 11973
+  },
+  {
+    "at": "2026-11-02T22:42:09.965Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 74
+  },
+  {
+    "at": "2026-11-02T22:41:57.988Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 15196
+  },
+  {
+    "at": "2026-11-02T22:42:13.186Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 75
+  },
+  {
+    "at": "2026-11-02T22:42:13.393Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 80
+  },
+  {
+    "at": "2026-11-02T22:42:15.694Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 107
+  },
+  {
+    "at": "2026-11-02T22:42:17.043Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 151
+  },
+  {
+    "at": "2026-11-02T22:42:20.267Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 155
+  },
+  {
+    "at": "2026-11-02T22:42:20.476Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 155
+  },
+  {
+    "at": "2026-11-02T22:42:22.805Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 124
+  },
+  {
+    "at": "2026-11-02T22:42:24.198Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 112
+  },
+  {
+    "at": "2026-11-02T22:42:27.427Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 132
+  },
+  {
+    "at": "2026-11-02T22:42:27.635Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 110
+  },
+  {
+    "at": "2026-11-02T22:42:29.933Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 75
+  },
+  {
+    "at": "2026-11-02T22:42:31.315Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 81
+  },
+  {
+    "at": "2026-11-02T22:42:34.564Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 130
+  },
+  {
+    "at": "2026-11-02T22:42:34.749Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 96
+  },
+  {
+    "at": "2026-11-02T22:42:37.012Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 81
+  },
+  {
+    "at": "2026-11-02T22:42:38.398Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 76
+  },
+  {
+    "at": "2026-11-02T22:42:41.697Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 113
+  },
+  {
+    "at": "2026-11-02T22:42:41.850Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:42:44.098Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 77
+  },
+  {
+    "at": "2026-11-02T22:42:45.479Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 120
+  },
+  {
+    "at": "2026-11-02T22:42:48.814Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:42:48.926Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:42:51.179Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 154
+  },
+  {
+    "at": "2026-11-02T22:42:52.604Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 71
+  },
+  {
+    "at": "2026-11-02T22:42:55.886Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 90
+  },
+  {
+    "at": "2026-11-02T22:42:56.002Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:42:58.337Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:42:59.678Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 80
+  },
+  {
+    "at": "2026-11-02T22:43:02.981Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 67
+  },
+  {
+    "at": "2026-11-02T22:43:03.075Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:43:05.409Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 158
+  },
+  {
+    "at": "2026-11-02T22:43:06.759Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 139
+  },
+  {
+    "at": "2026-11-02T22:43:10.051Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:43:10.146Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:43:12.571Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 164
+  },
+  {
+    "at": "2026-11-02T22:43:13.901Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 161
+  },
+  {
+    "at": "2026-11-02T22:43:17.127Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 97
+  },
+  {
+    "at": "2026-11-02T22:43:17.220Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 135
+  },
+  {
+    "at": "2026-11-02T22:43:19.770Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 252
+  },
+  {
+    "at": "2026-11-02T22:43:21.064Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 157
+  },
+  {
+    "at": "2026-11-02T22:43:24.226Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 102
+  },
+  {
+    "at": "2026-11-02T22:43:27.027Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 135
+  },
+  {
+    "at": "2026-11-02T22:43:28.225Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 130
+  },
+  {
+    "at": "2026-11-02T22:43:31.333Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 123
+  },
+  {
+    "at": "2026-11-02T22:43:34.166Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 71
+  },
+  {
+    "at": "2026-11-02T22:43:35.361Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 104
+  },
+  {
+    "at": "2026-11-02T22:43:38.459Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 183
+  },
+  {
+    "at": "2026-11-02T22:43:41.241Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 125
+  },
+  {
+    "at": "2026-11-02T22:43:42.468Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 118
+  },
+  {
+    "at": "2026-11-02T22:43:48.369Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 208
+  },
+  {
+    "at": "2026-11-02T22:43:49.591Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 76
+  },
+  {
+    "at": "2026-11-02T22:45:47.388Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 269
+  },
+  {
+    "at": "2026-11-02T22:45:47.658Z",
+    "method": "POST",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d/stop",
+    "status": 200,
+    "ms": 117
+  },
+  {
+    "at": "2026-11-02T22:45:47.775Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 102
+  },
+  {
+    "at": "2026-11-02T22:45:49.877Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 67
+  },
+  {
+    "at": "2026-11-02T22:45:51.946Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 77
+  },
+  {
+    "at": "2026-11-02T22:45:54.025Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 112
+  },
+  {
+    "at": "2026-11-02T22:45:55.015Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 75
+  },
+  {
+    "at": "2026-11-02T22:45:55.090Z",
+    "method": "POST",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8/stop",
+    "status": 200,
+    "ms": 94
+  },
+  {
+    "at": "2026-11-02T22:45:55.184Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 73
+  },
+  {
+    "at": "2026-11-02T22:45:56.041Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:45:56.110Z",
+    "method": "POST",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89/stop",
+    "status": 200,
+    "ms": 92
+  },
+  {
+    "at": "2026-11-02T22:45:56.138Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:45:56.202Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:45:57.260Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 135
+  },
+  {
+    "at": "2026-11-02T22:45:58.208Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 69
+  },
+  {
+    "at": "2026-11-02T22:45:58.272Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 69
+  },
+  {
+    "at": "2026-11-02T22:45:59.397Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 78
+  },
+  {
+    "at": "2026-11-02T22:46:00.279Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:46:00.341Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:46:01.476Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 117
+  },
+  {
+    "at": "2026-11-02T22:46:02.351Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 82
+  },
+  {
+    "at": "2026-11-02T22:46:02.414Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:46:03.594Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 101
+  },
+  {
+    "at": "2026-11-02T22:46:04.435Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:46:04.485Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:46:05.697Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 81
+  },
+  {
+    "at": "2026-11-02T22:46:06.508Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:46:06.557Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 69
+  },
+  {
+    "at": "2026-11-02T22:46:06.578Z",
+    "method": "DELETE",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d?storages=1&backups=delete",
+    "status": 204,
+    "ms": 170
+  },
+  {
+    "at": "2026-11-02T22:46:07.779Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 163
+  },
+  {
+    "at": "2026-11-02T22:46:08.628Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 79
+  },
+  {
+    "at": "2026-11-02T22:46:09.943Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 83
+  },
+  {
+    "at": "2026-11-02T22:46:10.708Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 154
+  },
+  {
+    "at": "2026-11-02T22:46:12.028Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 79
+  },
+  {
+    "at": "2026-11-02T22:46:12.864Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 74
+  },
+  {
+    "at": "2026-11-02T22:46:14.108Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 85
+  },
+  {
+    "at": "2026-11-02T22:46:14.939Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 76
+  },
+  {
+    "at": "2026-11-02T22:46:16.194Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 200,
+    "ms": 75
+  },
+  {
+    "at": "2026-11-02T22:46:16.270Z",
+    "method": "DELETE",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8?storages=1&backups=delete",
+    "status": 204,
+    "ms": 200
+  },
+  {
+    "at": "2026-11-02T22:46:17.016Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 200,
+    "ms": 71
+  },
+  {
+    "at": "2026-11-02T22:46:17.088Z",
+    "method": "DELETE",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89?storages=1&backups=delete",
+    "status": 204,
+    "ms": 167
+  },
+  {
+    "at": "2026-11-02T22:46:33.132Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 341
+  },
+  {
+    "at": "2026-11-02T22:46:33.474Z",
+    "method": "POST",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa/stop",
+    "status": 200,
+    "ms": 249
+  },
+  {
+    "at": "2026-11-02T22:46:33.723Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 170
+  },
+  {
+    "at": "2026-11-02T22:46:35.894Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 166
+  },
+  {
+    "at": "2026-11-02T22:46:38.061Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 135
+  },
+  {
+    "at": "2026-11-02T22:46:40.197Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 228
+  },
+  {
+    "at": "2026-11-02T22:46:42.427Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 109
+  },
+  {
+    "at": "2026-11-02T22:46:44.537Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 166
+  },
+  {
+    "at": "2026-11-02T22:46:46.705Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 148
+  },
+  {
+    "at": "2026-11-02T22:46:48.855Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 98
+  },
+  {
+    "at": "2026-11-02T22:46:50.954Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 105
+  },
+  {
+    "at": "2026-11-02T22:46:53.061Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 145
+  },
+  {
+    "at": "2026-11-02T22:46:55.207Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 146
+  },
+  {
+    "at": "2026-11-02T22:46:57.355Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 200,
+    "ms": 147
+  },
+  {
+    "at": "2026-11-02T22:46:57.503Z",
+    "method": "DELETE",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa?storages=1&backups=delete",
+    "status": 204,
+    "ms": 185
+  },
+  {
+    "at": "2026-11-02T22:47:07.690Z",
+    "method": "GET",
+    "path": "/server/00805b8e-a233-4244-a1ee-1b20e797687d",
+    "status": 404,
+    "ms": 189
+  },
+  {
+    "at": "2026-11-02T22:47:07.880Z",
+    "method": "GET",
+    "path": "/storage/016b6d72-3961-4f54-9596-036bc6904e32",
+    "status": 404,
+    "ms": 62
+  },
+  {
+    "at": "2026-11-02T22:47:07.942Z",
+    "method": "GET",
+    "path": "/ip_address/85.9.204.71",
+    "status": 404,
+    "ms": 63
+  },
+  {
+    "at": "2026-11-02T22:47:08.005Z",
+    "method": "GET",
+    "path": "/server/00ec183e-05c7-422c-bf06-8222371e3e89",
+    "status": 404,
+    "ms": 65
+  },
+  {
+    "at": "2026-11-02T22:47:08.071Z",
+    "method": "GET",
+    "path": "/storage/010d37ad-e5ac-4413-a431-5f38aa836073",
+    "status": 404,
+    "ms": 66
+  },
+  {
+    "at": "2026-11-02T22:47:08.137Z",
+    "method": "GET",
+    "path": "/ip_address/85.9.200.240",
+    "status": 404,
+    "ms": 61
+  },
+  {
+    "at": "2026-11-02T22:47:08.198Z",
+    "method": "GET",
+    "path": "/server/00548d21-2d58-4908-8670-37f61d3495f8",
+    "status": 404,
+    "ms": 61
+  },
+  {
+    "at": "2026-11-02T22:47:08.259Z",
+    "method": "GET",
+    "path": "/storage/012cf7f6-4d46-458d-bf71-627a8a19fcd9",
+    "status": 404,
+    "ms": 61
+  },
+  {
+    "at": "2026-11-02T22:47:08.320Z",
+    "method": "GET",
+    "path": "/ip_address/94.237.117.128",
+    "status": 404,
+    "ms": 63
+  },
+  {
+    "at": "2026-11-02T22:47:08.383Z",
+    "method": "GET",
+    "path": "/server/00e8774f-9434-41bb-97b7-9e40a71438aa",
+    "status": 404,
+    "ms": 62
+  },
+  {
+    "at": "2026-11-02T22:47:08.446Z",
+    "method": "GET",
+    "path": "/storage/013ff6a3-d9fb-489f-ba8d-bff3c0d18dde",
+    "status": 404,
+    "ms": 64
+  },
+  {
+    "at": "2026-11-02T22:47:08.510Z",
+    "method": "GET",
+    "path": "/ip_address/94.237.115.145",
+    "status": 404,
+    "ms": 60
+  },
+  {
+    "at": "2026-11-02T22:47:08.571Z",
+    "method": "GET",
+    "path": "/server",
+    "status": 200,
+    "ms": 64
+  },
+  {
+    "at": "2026-11-02T22:47:08.635Z",
+    "method": "GET",
+    "path": "/ip_address",
+    "status": 200,
+    "ms": 60
+  }
+]

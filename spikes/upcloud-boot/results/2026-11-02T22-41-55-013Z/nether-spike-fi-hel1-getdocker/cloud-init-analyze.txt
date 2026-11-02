@@ -1,0 +1,52 @@
+-- Boot Record 01 --
+The total time elapsed since completing an event is printed after the "@" character.
+The time the event takes is printed after the "+" character.
+
+Starting stage: init-local
+|`->no cache found (duration: 0.000s) @00.00400s +00.00100s
+|`->found local data from DataSourceUpCloudLocal (duration: 0.971s) @00.01600s +00.97100s
+Finished stage: (init-local) 01.69600 seconds
+
+Starting stage: init-network
+|`->restored from cache with run check: DataSourceUpCloudLocal (duration: 0.003s) @03.94300s +00.00300s
+|`->setting up datasource (duration: 0.000s) @03.97500s +00.00000s
+|`->reading and applying user-data (duration: 0.002s) @03.98100s +00.00300s
+|`->reading and applying vendor-data (duration: 0.003s) @03.98400s +00.00200s
+|`->reading and applying vendor-data2 (duration: 0.000s) @03.98600s +00.00100s
+|`->activating datasource (duration: 0.002s) @04.00800s +00.00200s
+|`->config-seed_random ran successfully and took 0.001 seconds (duration: 0.001s) @04.03700s +00.00100s
+|`->config-growpart ran successfully and took 0.520 seconds (duration: 0.520s) @04.03800s +00.52100s
+|`->config-resizefs ran successfully and took 0.051 seconds (duration: 0.051s) @04.55900s +00.05100s
+|`->config-mounts ran successfully and took 0.002 seconds (duration: 0.002s) @04.61000s +00.00200s
+|`->config-set_hostname ran successfully and took 0.001 seconds (duration: 0.001s) @04.61200s +00.00100s
+|`->config-update_hostname ran successfully and took 0.001 seconds (duration: 0.001s) @04.61300s +00.00100s
+|`->config-update_etc_hosts ran successfully and took 0.008 seconds (duration: 0.008s) @04.61500s +00.00800s
+|`->config-users-groups ran successfully and took 0.126 seconds (duration: 0.127s) @04.62300s +00.12600s
+|`->config-ssh ran successfully and took 0.567 seconds (duration: 0.567s) @04.74900s +00.56800s
+Finished stage: (init-network) 01.38900 seconds
+
+Starting stage: modules-config
+|`->config-ssh-import-id ran successfully and took 0.001 seconds (duration: 0.001s) @07.42900s +00.00100s
+|`->config-locale ran successfully and took 0.005 seconds (duration: 0.005s) @07.43100s +00.00500s
+|`->config-set-passwords ran successfully and took 0.187 seconds (duration: 0.187s) @07.43600s +00.18700s
+|`->config-grub-dpkg ran successfully and took 0.329 seconds (duration: 0.329s) @07.62400s +00.32900s
+|`->config-apt-configure ran successfully and took 0.038 seconds (duration: 0.038s) @07.95400s +00.03800s
+|`->config-byobu ran successfully and took 0.000 seconds (duration: 0.001s) @07.99200s +00.00100s
+Finished stage: (modules-config) 00.62200 seconds
+
+Starting stage: modules-final
+|`->config-reset_rmc ran successfully and took 0.001 seconds (duration: 0.001s) @09.29100s +00.00100s
+|`->config-scripts-vendor ran successfully and took 0.000 seconds (duration: 0.001s) @09.29200s +00.00100s
+|`->config-scripts-per-once ran successfully and took 0.000 seconds (duration: 0.001s) @09.29300s +00.00100s
+|`->config-scripts-per-boot ran successfully and took 0.000 seconds (duration: 0.000s) @09.29400s +00.00000s
+|`->config-scripts-per-instance ran successfully and took 0.000 seconds (duration: 0.001s) @09.29400s +00.00100s
+|`->config-scripts-user ran successfully and took 73.774 seconds (duration: 73.774s) @09.29500s +73.77400s
+|`->config-ssh-authkey-fingerprints ran successfully and took 0.051 seconds (duration: 0.051s) @83.07000s +00.05100s
+|`->config-keys-to-console ran successfully and took 0.163 seconds (duration: 0.164s) @83.12100s +00.16400s
+|`->config-install-hotplug ran successfully and took 0.001 seconds (duration: 0.001s) @83.32000s +00.00100s
+|`->config-final-message ran successfully and took 0.005 seconds (duration: 0.005s) @83.32200s +00.00400s
+Finished stage: (modules-final) 74.05300 seconds
+
+Total Time: 77.76000 seconds
+
+1 boot records analyzed
