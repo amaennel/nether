@@ -9,8 +9,12 @@ The long-lived control plane that owns all state and exposes the REST API.
 _Avoid_: controller, master, backend
 
 **Node**:
-One ephemeral cloud VM that hosts exactly one Game Server for the duration of a Session.
+One ephemeral cloud VM that hosts at most one Game Server at a time. It can outlive a Session by being Parked.
 _Avoid_: server, machine, instance, host
+
+**Parked**:
+The state of a Node whose Session has ended cleanly but which is kept, already paid for, so that a later Session can reuse it instead of a fresh Node.
+_Avoid_: warm, idle, standby, pooled
 
 **Runtime**:
 The agent process on a Node that reports to the Orchestrator and drives the game container.
