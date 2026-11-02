@@ -1,0 +1,37 @@
+{
+  "nether-spike-de-fra1-apt": {
+    "serverStatus": 404,
+    "storages": [
+      {
+        "storage": "01416cc9-d0af-4ca0-aa3e-b1d034edbdb6",
+        "status": 404
+      }
+    ],
+    "ip": "5.22.213.131",
+    "ipStatus": 404
+  },
+  "nether-spike-de-fra1-baked": {
+    "serverStatus": 404,
+    "storages": [
+      {
+        "storage": "019b8f8e-452b-4a0f-9368-ff3fd5eefa56",
+        "status": 404
+      }
+    ],
+    "ip": "85.9.206.201",
+    "ipStatus": 404
+  },
+  "nether-spike-fi-hel1-apt": {
+    "serverStatus": 404,
+    "storages": [
+      {
+        "storage": "011ad313-567c-4c16-ae71-1c7ab8630492",
+        "status": 404
+      }
+    ],
+    "ip": "94.237.112.73",
+    "ipStatus": 404
+  },
+  "labelledServersRemaining": [],
+  "floatingIps": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "access": "public",
+    "encrypted": "no",
+    "labels": [],
+    "license": 0,
+    "size": 10,
+    "state": "online",
+    "template_type": "cloud-init",
+    "title": "Ubuntu Server 26.04 LTS (Resolute Raccoon)",
+    "type": "template",
+    "uuid": "01000000-0000-4000-8000-000030260200"
+  },
+  {
+    "access": "public",
+    "encrypted": "no",
+    "labels": [],
+    "license": 0,
+    "size": 20,
+    "state": "online",
+    "template_type": "cloud-init",
+    "title": "Ubuntu Server 24.04 LTS (with NVIDIA drivers & CUDA)",
+    "type": "template",
+    "uuid": "01000000-0000-4000-8000-000030700200"
+  },
+  {
+    "access": "public",
+    "encrypted": "no",
+    "labels": [],
+    "license": 0,
+    "size": 10,
+    "state": "online",
+    "template_type": "cloud-init",
+    "title": "Ubuntu Server 24.04 LTS (Noble Numbat)",
+    "type": "template",
+    "uuid": "01000000-0000-4000-8000-000030240200"
+  },
+  {
+    "access": "public",
+    "encrypted": "no",
+    "labels": [],
+    "license": 0,
+    "size": 10,
+    "state": "online",
+    "template_type": "cloud-init",
+    "title": "Ubuntu Server 22.04 LTS (Jammy Jellyfish)",
+    "type": "template",
+    "uuid": "01000000-0000-4000-8000-000030220200"
+  }
+]

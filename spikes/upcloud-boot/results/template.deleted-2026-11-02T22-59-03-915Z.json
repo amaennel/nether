@@ -1,0 +1,12 @@
+{
+  "uuid": "012aa7e1-cd22-49a7-9e03-0ee91842866d",
+  "zone": "de-fra1",
+  "title": "nether-spike-template-2026-11-02T22-50-50-345Z",
+  "sizeGb": 10,
+  "sourceTemplate": "01000000-0000-4000-8000-000030240200",
+  "timings": {
+    "started": 74.6,
+    "powered_off": 153.9,
+    "template_online": 189.6
+  }
+}

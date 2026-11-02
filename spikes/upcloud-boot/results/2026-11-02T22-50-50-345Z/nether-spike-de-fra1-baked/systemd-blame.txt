@@ -1,0 +1,40 @@
+3.222s nether-early-mark.service
+2.454s cloud-init-local.service
+2.178s cloud-config.service
+1.963s dev-vda2.device
+1.911s cloud-init.service
+1.860s systemd-networkd-wait-online.service
+1.649s docker.service
+1.587s cloud-final.service
+1.307s containerd.service
+1.039s rsyslog.service
+1.024s ubuntu-fan.service
+ 995ms polkit.service
+ 934ms grub-common.service
+ 865ms udisks2.service
+ 776ms apparmor.service
+ 768ms systemd-udev-trigger.service
+ 723ms systemd-hostnamed.service
+ 624ms keyboard-setup.service
+ 555ms ssh.service
+ 522ms systemd-logind.service
+ 396ms systemd-resolved.service
+ 385ms systemd-udevd.service
+ 343ms multipathd.service
+ 334ms modprobe@drm.service
+ 327ms modprobe@efi_pstore.service
+ 326ms modprobe@loop.service
+ 325ms modprobe@fuse.service
+ 312ms systemd-modules-load.service
+ 302ms ModemManager.service
+ 295ms systemd-tmpfiles-setup.service
+ 256ms modprobe@dm_mod.service
+ 254ms dbus.service
+ 229ms console-setup.service
+ 226ms systemd-binfmt.service
+ 226ms systemd-journald.service
+ 225ms lvm2-monitor.service
+ 210ms plymouth-read-write.service
+ 185ms e2scrub_reap.service
+ 184ms grub-initrd-fallback.service
+ 182ms finalrd.service

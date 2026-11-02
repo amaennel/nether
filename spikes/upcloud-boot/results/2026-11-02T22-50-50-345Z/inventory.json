@@ -1,0 +1,3154 @@
+{
+  "account": {
+    "credits": 279.5065,
+    "resource_limits": {
+      "cdns": 100,
+      "cloud_server_dev_1xcpu_1gb_10gb_plans": 2,
+      "cloud_server_dev_1xcpu_1gb_plans": 5,
+      "cloud_server_starter_1xcpu_1gb_plans": 5,
+      "cores": 100,
+      "detached_floating_ips": 10,
+      "detached_interfaces": 100,
+      "file_storages": 50,
+      "firewall_rules": null,
+      "gpus": 1,
+      "load_balancers": 50,
+      "load_balancers_essentials": 5,
+      "managed_container_registries": 5,
+      "managed_databases": 50,
+      "managed_databases_dev": 5,
+      "managed_kubernetes": 50,
+      "managed_object_storages": 20,
+      "memory": 307200,
+      "network_gateways": 50,
+      "network_gateways_essentials": 5,
+      "network_peerings": 100,
+      "networks": 100,
+      "ntp_excess_gib": 0,
+      "public_ipv4": 20,
+      "public_ipv6": 100,
+      "routers": 100,
+      "server_groups": 200,
+      "storage_hdd": 10240,
+      "storage_maxiops": 10240,
+      "storage_ssd": 10240,
+      "storage_standard": 10240,
+      "storage_total": 30720,
+      "tags": 200
+    }
+  },
+  "zones": [
+    {
+      "description": "Sydney #1",
+      "id": "au-syd1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Frankfurt #1",
+      "id": "de-fra1",
+      "public": "yes",
+      "trial_allowed": "no"
+    },
+    {
+      "description": "Copenhagen #1",
+      "id": "dk-cph1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Madrid #1",
+      "id": "es-mad1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Helsinki #1",
+      "id": "fi-hel1",
+      "public": "yes",
+      "trial_allowed": "no"
+    },
+    {
+      "description": "Helsinki #2",
+      "id": "fi-hel2",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Amsterdam #1",
+      "id": "nl-ams1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Stavanger #1",
+      "id": "no-svg1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Warsaw #1",
+      "id": "pl-waw1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Stockholm #1",
+      "id": "se-sto1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Singapore #1",
+      "id": "sg-sin1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "London #1",
+      "id": "uk-lon1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "Chicago #1",
+      "id": "us-chi1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "New York #1",
+      "id": "us-nyc1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    },
+    {
+      "description": "San Jose #1",
+      "id": "us-sjo1",
+      "public": "yes",
+      "trial_allowed": "yes"
+    }
+  ],
+  "starterPlans": [
+    {
+      "core_number": 1,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 2048,
+      "name": "STARTER-1xCPU-2GB",
+      "public_traffic_out": 512,
+      "storage_size": 20,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 1,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 4096,
+      "name": "STARTER-1xCPU-4GB",
+      "public_traffic_out": 1024,
+      "storage_size": 30,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 1,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 1024,
+      "name": "STARTER-1xCPU-1GB",
+      "public_traffic_out": 512,
+      "storage_size": 10,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 2,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 4096,
+      "name": "STARTER-2xCPU-4GB",
+      "public_traffic_out": 1536,
+      "storage_size": 30,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 2,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 16384,
+      "name": "STARTER-2xCPU-16GB",
+      "public_traffic_out": 2048,
+      "storage_size": 50,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 2,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 8192,
+      "name": "STARTER-2xCPU-8GB",
+      "public_traffic_out": 1536,
+      "storage_size": 40,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 2,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 2048,
+      "name": "STARTER-2xCPU-2GB",
+      "public_traffic_out": 1024,
+      "storage_size": 30,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 4,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 8192,
+      "name": "STARTER-4xCPU-8GB",
+      "public_traffic_out": 2048,
+      "storage_size": 40,
+      "storage_tier": "standard"
+    },
+    {
+      "core_number": 4,
+      "current_offering": "yes",
+      "family": "starter",
+      "memory_amount": 16384,
+      "name": "STARTER-4xCPU-16GB",
+      "public_traffic_out": 2560,
+      "storage_size": 50,
+      "storage_tier": "standard"
+    }
+  ],
+  "sameRamPairs": [
+    [
+      "STARTER-1xCPU-2GB",
+      "STARTER-2xCPU-2GB"
+    ],
+    [
+      "STARTER-1xCPU-4GB",
+      "STARTER-2xCPU-4GB"
+    ],
+    [
+      "STARTER-2xCPU-16GB",
+      "STARTER-4xCPU-16GB"
+    ],
+    [
+      "STARTER-2xCPU-8GB",
+      "STARTER-4xCPU-8GB"
+    ]
+  ],
+  "perZone": {
+    "de-fra1": {
+      "STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      }
+    },
+    "fi-hel1": {
+      "STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      }
+    }
+  },
+  "zonePrices": {
+    "au-syd1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "de-fra1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "dk-cph1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "es-mad1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "fi-hel1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "fi-hel2": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "nl-ams1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "no-svg1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "pl-waw1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "se-sto1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "sg-sin1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "uk-lon1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "us-chi1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "us-nyc1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    },
+    "us-sjo1": {
+      "ipv4_address": {
+        "amount": 1,
+        "price": 0.4812
+      },
+      "server_plan_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.4464
+      },
+      "server_plan_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "server_plan_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 1.488
+      },
+      "server_plan_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 3.5714
+      },
+      "server_plan_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "server_plan_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "server_plan_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 2.6785
+      },
+      "server_plan_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 4.1666
+      },
+      "server_plan_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 2.9761
+      },
+      "simple_backup_dailies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_dailies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_dailies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_dailies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_dailies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.2381
+      },
+      "simple_backup_dailies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_dailies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_dailies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.8333
+      },
+      "simple_backup_dailies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_daily_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.0446
+      },
+      "simple_backup_daily_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.0893
+      },
+      "simple_backup_daily_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1488
+      },
+      "simple_backup_daily_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_daily_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.119
+      },
+      "simple_backup_daily_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_daily_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2679
+      },
+      "simple_backup_daily_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 0.4167
+      },
+      "simple_backup_daily_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 0.2976
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.2678
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.5357
+      },
+      "simple_backup_monthlies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.8928
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 2.1428
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.7142
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_monthlies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.6071
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 2.5
+      },
+      "simple_backup_monthlies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.7857
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-1GB": {
+        "amount": 1,
+        "price": 0.1786
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-2GB": {
+        "amount": 1,
+        "price": 0.3571
+      },
+      "simple_backup_weeklies_STARTER-1xCPU-4GB": {
+        "amount": 1,
+        "price": 0.5952
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-16GB": {
+        "amount": 1,
+        "price": 1.4286
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-2GB": {
+        "amount": 1,
+        "price": 0.4762
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-4GB": {
+        "amount": 1,
+        "price": 0.7143
+      },
+      "simple_backup_weeklies_STARTER-2xCPU-8GB": {
+        "amount": 1,
+        "price": 1.0714
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-16GB": {
+        "amount": 1,
+        "price": 1.6666
+      },
+      "simple_backup_weeklies_STARTER-4xCPU-8GB": {
+        "amount": 1,
+        "price": 1.1904
+      },
+      "storage_standard": {
+        "amount": 1,
+        "price": 0.0118
+      }
+    }
+  },
+  "ubuntuTemplates": [
+    {
+      "uuid": "01000000-0000-4000-8000-000030260200",
+      "title": "Ubuntu Server 26.04 LTS (Resolute Raccoon)",
+      "template_type": "cloud-init"
+    },
+    {
+      "uuid": "01000000-0000-4000-8000-000030700200",
+      "title": "Ubuntu Server 24.04 LTS (with NVIDIA drivers & CUDA)",
+      "template_type": "cloud-init"
+    },
+    {
+      "uuid": "01000000-0000-4000-8000-000030240200",
+      "title": "Ubuntu Server 24.04 LTS (Noble Numbat)",
+      "template_type": "cloud-init"
+    },
+    {
+      "uuid": "01000000-0000-4000-8000-000030220200",
+      "title": "Ubuntu Server 22.04 LTS (Jammy Jellyfish)",
+      "template_type": "cloud-init"
+    }
+  ]
+}

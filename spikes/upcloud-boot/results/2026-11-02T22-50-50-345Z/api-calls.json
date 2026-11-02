@@ -1,0 +1,933 @@
+[
+  {
+    "at": "2026-11-02T22:50:50.350Z",
+    "method": "GET",
+    "path": "/account",
+    "status": 200,
+    "ms": 316
+  },
+  {
+    "at": "2026-11-02T22:50:50.368Z",
+    "method": "GET",
+    "path": "/zone",
+    "status": 200,
+    "ms": 349
+  },
+  {
+    "at": "2026-11-02T22:50:50.368Z",
+    "method": "GET",
+    "path": "/plan",
+    "status": 200,
+    "ms": 424
+  },
+  {
+    "at": "2026-11-02T22:50:50.368Z",
+    "method": "GET",
+    "path": "/price",
+    "status": 200,
+    "ms": 1121
+  },
+  {
+    "at": "2026-11-02T22:50:52.808Z",
+    "method": "GET",
+    "path": "/storage/template",
+    "status": 200,
+    "ms": 375
+  },
+  {
+    "at": "2026-11-02T22:50:53.791Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 12134
+  },
+  {
+    "at": "2026-11-02T22:51:05.930Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 106
+  },
+  {
+    "at": "2026-11-02T22:51:12.040Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 442
+  },
+  {
+    "at": "2026-11-02T22:51:18.486Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 204
+  },
+  {
+    "at": "2026-11-02T22:51:24.693Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 200
+  },
+  {
+    "at": "2026-11-02T22:51:30.897Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 183
+  },
+  {
+    "at": "2026-11-02T22:51:37.082Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 283
+  },
+  {
+    "at": "2026-11-02T22:51:43.368Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 179
+  },
+  {
+    "at": "2026-11-02T22:51:49.549Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 198
+  },
+  {
+    "at": "2026-11-02T22:51:55.751Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 183
+  },
+  {
+    "at": "2026-11-02T22:52:01.938Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 183
+  },
+  {
+    "at": "2026-11-02T22:52:08.124Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 308
+  },
+  {
+    "at": "2026-11-02T22:52:14.436Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 626
+  },
+  {
+    "at": "2026-11-02T22:52:18.090Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 232
+  },
+  {
+    "at": "2026-11-02T22:52:21.350Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 246
+  },
+  {
+    "at": "2026-11-02T22:52:24.663Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 182
+  },
+  {
+    "at": "2026-11-02T22:52:27.906Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 97
+  },
+  {
+    "at": "2026-11-02T22:52:31.058Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 80
+  },
+  {
+    "at": "2026-11-02T22:52:34.193Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 97
+  },
+  {
+    "at": "2026-11-02T22:52:37.350Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 81
+  },
+  {
+    "at": "2026-11-02T22:52:40.486Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 71
+  },
+  {
+    "at": "2026-11-02T22:52:43.613Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 104
+  },
+  {
+    "at": "2026-11-02T22:52:46.773Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 68
+  },
+  {
+    "at": "2026-11-02T22:52:49.902Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 101
+  },
+  {
+    "at": "2026-11-02T22:52:53.063Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:52:56.189Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 80
+  },
+  {
+    "at": "2026-11-02T22:52:59.329Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 121
+  },
+  {
+    "at": "2026-11-02T22:53:02.506Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 155
+  },
+  {
+    "at": "2026-11-02T22:53:05.715Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 121
+  },
+  {
+    "at": "2026-11-02T22:53:11.838Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 186
+  },
+  {
+    "at": "2026-11-02T22:53:18.026Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 402
+  },
+  {
+    "at": "2026-11-02T22:53:24.432Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 217
+  },
+  {
+    "at": "2026-11-02T22:53:27.654Z",
+    "method": "POST",
+    "path": "/storage/011a543c-cf25-48e7-b483-7bf1378433f9/templatize",
+    "status": 201,
+    "ms": 1755
+  },
+  {
+    "at": "2026-11-02T22:53:29.411Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 109
+  },
+  {
+    "at": "2026-11-02T22:53:32.522Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:53:35.594Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 77
+  },
+  {
+    "at": "2026-11-02T22:53:38.673Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 73
+  },
+  {
+    "at": "2026-11-02T22:53:41.748Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 114
+  },
+  {
+    "at": "2026-11-02T22:53:44.864Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 73
+  },
+  {
+    "at": "2026-11-02T22:53:47.939Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 74
+  },
+  {
+    "at": "2026-11-02T22:53:51.015Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 89
+  },
+  {
+    "at": "2026-11-02T22:53:54.105Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 67
+  },
+  {
+    "at": "2026-11-02T22:53:57.174Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 61
+  },
+  {
+    "at": "2026-11-02T22:54:00.236Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 64
+  },
+  {
+    "at": "2026-11-02T22:54:03.301Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 63
+  },
+  {
+    "at": "2026-11-02T22:54:03.365Z",
+    "method": "GET",
+    "path": "/storage/012aa7e1-cd22-49a7-9e03-0ee91842866d",
+    "status": 200,
+    "ms": 83
+  },
+  {
+    "at": "2026-11-02T22:54:03.450Z",
+    "method": "GET",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+    "status": 200,
+    "ms": 67
+  },
+  {
+    "at": "2026-11-02T22:54:03.518Z",
+    "method": "DELETE",
+    "path": "/server/00993e83-2a8c-4104-bfb0-5cdfac2f60a2?storages=1&backups=delete",
+    "status": 204,
+    "ms": 144
+  },
+  {
+    "at": "2026-11-02T22:54:03.666Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 409,
+    "ms": 90
+  },
+  {
+    "at": "2026-11-02T22:54:03.665Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 12553
+  },
+  {
+    "at": "2026-11-02T22:54:16.221Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:54:03.666Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 15077
+  },
+  {
+    "at": "2026-11-02T22:54:18.744Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 69
+  },
+  {
+    "at": "2026-11-02T22:54:03.665Z",
+    "method": "POST",
+    "path": "/server",
+    "status": 202,
+    "ms": 16510
+  },
+  {
+    "at": "2026-11-02T22:54:20.177Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 71
+  },
+  {
+    "at": "2026-11-02T22:54:23.297Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 124
+  },
+  {
+    "at": "2026-11-02T22:54:25.815Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 155
+  },
+  {
+    "at": "2026-11-02T22:54:27.254Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 196
+  },
+  {
+    "at": "2026-11-02T22:54:30.425Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 96
+  },
+  {
+    "at": "2026-11-02T22:54:32.972Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 129
+  },
+  {
+    "at": "2026-11-02T22:54:34.453Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 77
+  },
+  {
+    "at": "2026-11-02T22:54:37.526Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 74
+  },
+  {
+    "at": "2026-11-02T22:54:40.107Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 124
+  },
+  {
+    "at": "2026-11-02T22:54:41.534Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 111
+  },
+  {
+    "at": "2026-11-02T22:54:44.605Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 110
+  },
+  {
+    "at": "2026-11-02T22:54:47.235Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:54:48.648Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 103
+  },
+  {
+    "at": "2026-11-02T22:54:51.717Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 103
+  },
+  {
+    "at": "2026-11-02T22:54:54.309Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 78
+  },
+  {
+    "at": "2026-11-02T22:54:55.756Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 76
+  },
+  {
+    "at": "2026-11-02T22:54:58.824Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 74
+  },
+  {
+    "at": "2026-11-02T22:55:01.391Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 143
+  },
+  {
+    "at": "2026-11-02T22:55:02.836Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 78
+  },
+  {
+    "at": "2026-11-02T22:55:05.903Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:55:08.537Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 155
+  },
+  {
+    "at": "2026-11-02T22:55:09.917Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:55:12.977Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:55:15.696Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 133
+  },
+  {
+    "at": "2026-11-02T22:55:22.834Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 207
+  },
+  {
+    "at": "2026-11-02T22:57:00.366Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 250
+  },
+  {
+    "at": "2026-11-02T22:57:00.617Z",
+    "method": "POST",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b/stop",
+    "status": 200,
+    "ms": 114
+  },
+  {
+    "at": "2026-11-02T22:57:00.731Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 73
+  },
+  {
+    "at": "2026-11-02T22:57:02.805Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 70
+  },
+  {
+    "at": "2026-11-02T22:57:04.877Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 93
+  },
+  {
+    "at": "2026-11-02T22:57:06.971Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 119
+  },
+  {
+    "at": "2026-11-02T22:57:09.090Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 73
+  },
+  {
+    "at": "2026-11-02T22:57:11.165Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 76
+  },
+  {
+    "at": "2026-11-02T22:57:13.243Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 72
+  },
+  {
+    "at": "2026-11-02T22:57:15.316Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 200,
+    "ms": 170
+  },
+  {
+    "at": "2026-11-02T22:57:15.487Z",
+    "method": "DELETE",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b?storages=1&backups=delete",
+    "status": 204,
+    "ms": 164
+  },
+  {
+    "at": "2026-11-02T22:57:32.453Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 197
+  },
+  {
+    "at": "2026-11-02T22:57:32.650Z",
+    "method": "POST",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71/stop",
+    "status": 200,
+    "ms": 121
+  },
+  {
+    "at": "2026-11-02T22:57:32.771Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 104
+  },
+  {
+    "at": "2026-11-02T22:57:34.876Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 1148
+  },
+  {
+    "at": "2026-11-02T22:57:38.026Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 276
+  },
+  {
+    "at": "2026-11-02T22:57:40.304Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 168
+  },
+  {
+    "at": "2026-11-02T22:57:42.474Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 148
+  },
+  {
+    "at": "2026-11-02T22:57:44.624Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 251
+  },
+  {
+    "at": "2026-11-02T22:57:46.876Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 153
+  },
+  {
+    "at": "2026-11-02T22:57:49.031Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 82
+  },
+  {
+    "at": "2026-11-02T22:57:51.115Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 95
+  },
+  {
+    "at": "2026-11-02T22:57:53.211Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 119
+  },
+  {
+    "at": "2026-11-02T22:57:55.331Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 89
+  },
+  {
+    "at": "2026-11-02T22:57:57.421Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 200,
+    "ms": 152
+  },
+  {
+    "at": "2026-11-02T22:57:57.573Z",
+    "method": "DELETE",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71?storages=1&backups=delete",
+    "status": 204,
+    "ms": 249
+  },
+  {
+    "at": "2026-11-02T22:58:13.782Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 204
+  },
+  {
+    "at": "2026-11-02T22:58:13.987Z",
+    "method": "POST",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b/stop",
+    "status": 200,
+    "ms": 88
+  },
+  {
+    "at": "2026-11-02T22:58:14.075Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 71
+  },
+  {
+    "at": "2026-11-02T22:58:16.146Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 82
+  },
+  {
+    "at": "2026-11-02T22:58:18.230Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 73
+  },
+  {
+    "at": "2026-11-02T22:58:20.304Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 75
+  },
+  {
+    "at": "2026-11-02T22:58:22.380Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 178
+  },
+  {
+    "at": "2026-11-02T22:58:24.560Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 218
+  },
+  {
+    "at": "2026-11-02T22:58:26.780Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 77
+  },
+  {
+    "at": "2026-11-02T22:58:28.858Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 78
+  },
+  {
+    "at": "2026-11-02T22:58:30.938Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 200,
+    "ms": 81
+  },
+  {
+    "at": "2026-11-02T22:58:31.020Z",
+    "method": "DELETE",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b?storages=1&backups=delete",
+    "status": 204,
+    "ms": 156
+  },
+  {
+    "at": "2026-11-02T22:58:41.179Z",
+    "method": "GET",
+    "path": "/server/00771414-0a70-46c8-be7b-366d3243e49b",
+    "status": 404,
+    "ms": 256
+  },
+  {
+    "at": "2026-11-02T22:58:41.435Z",
+    "method": "GET",
+    "path": "/storage/01416cc9-d0af-4ca0-aa3e-b1d034edbdb6",
+    "status": 404,
+    "ms": 133
+  },
+  {
+    "at": "2026-11-02T22:58:41.568Z",
+    "method": "GET",
+    "path": "/ip_address/5.22.213.131",
+    "status": 404,
+    "ms": 106
+  },
+  {
+    "at": "2026-11-02T22:58:41.675Z",
+    "method": "GET",
+    "path": "/server/0072a310-3293-420b-9af4-12cff8de3a2b",
+    "status": 404,
+    "ms": 78
+  },
+  {
+    "at": "2026-11-02T22:58:41.754Z",
+    "method": "GET",
+    "path": "/storage/019b8f8e-452b-4a0f-9368-ff3fd5eefa56",
+    "status": 404,
+    "ms": 137
+  },
+  {
+    "at": "2026-11-02T22:58:41.892Z",
+    "method": "GET",
+    "path": "/ip_address/85.9.206.201",
+    "status": 404,
+    "ms": 86
+  },
+  {
+    "at": "2026-11-02T22:58:41.978Z",
+    "method": "GET",
+    "path": "/server/009f8931-9616-4e87-ae64-937448156e71",
+    "status": 404,
+    "ms": 103
+  },
+  {
+    "at": "2026-11-02T22:58:42.082Z",
+    "method": "GET",
+    "path": "/storage/011ad313-567c-4c16-ae71-1c7ab8630492",
+    "status": 404,
+    "ms": 83
+  },
+  {
+    "at": "2026-11-02T22:58:42.166Z",
+    "method": "GET",
+    "path": "/ip_address/94.237.112.73",
+    "status": 404,
+    "ms": 157
+  },
+  {
+    "at": "2026-11-02T22:58:42.323Z",
+    "method": "GET",
+    "path": "/server",
+    "status": 200,
+    "ms": 81
+  },
+  {
+    "at": "2026-11-02T22:58:42.404Z",
+    "method": "GET",
+    "path": "/ip_address",
+    "status": 200,
+    "ms": 124
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "boot_order": "disk",
+  "core_number": "2",
+  "created": 1793659854,
+  "devices": {
+    "device": []
+  },
+  "firewall": "off",
+  "firewall_private": "off",
+  "firewall_private_default_incoming_action": "drop",
+  "firewall_private_default_outgoing_action": "accept",
+  "firewall_public_default_incoming_action": "drop",
+  "firewall_public_default_outgoing_action": "accept",
+  "host": 5842420355,
+  "hostname": "nether-spike-builder-de-fra1",
+  "ip_addresses": {
+    "ip_address": [
+      {
+        "access": "public",
+        "address": "94.237.86.34",
+        "family": "IPv4",
+        "part_of_plan": "yes"
+      }
+    ]
+  },
+  "labels": {
+    "label": [
+      {
+        "key": "nether-spike",
+        "value": "2026-11-02T22-50-50-345Z"
+      }
+    ]
+  },
+  "license": 0,
+  "memory_amount": "4096",
+  "metadata": "yes",
+  "networking": {
+    "interfaces": {
+      "interface": [
+        {
+          "bootable": "no",
+          "index": 1,
+          "ip_addresses": {
+            "ip_address": [
+              {
+                "address": "94.237.86.34",
+                "dhcp_provided": "yes",
+                "family": "IPv4",
+                "floating": "no",
+                "release_policy": "release"
+              }
+            ]
+          },
+          "mac": "96:3f:b9:7b:54:66",
+          "network": "03000000-0000-4000-8063-000000000000",
+          "source_ip_filtering": "yes",
+          "type": "public"
+        }
+      ]
+    }
+  },
+  "nic_model": "virtio",
+  "plan": "STARTER-2xCPU-4GB",
+  "plan_ipv4_bytes": "0",
+  "plan_ipv6_bytes": "0",
+  "progress": "0",
+  "remote_access_enabled": "no",
+  "remote_access_password": "R72fmkyz",
+  "remote_access_type": "vnc",
+  "server_group": null,
+  "simple_backup": "no",
+  "state": "maintenance",
+  "storage_devices": {
+    "storage_device": [
+      {
+        "address": "virtio:0",
+        "boot_disk": "0",
+        "labels": [
+          {
+            "key": "_os_architecture",
+            "value": "64"
+          },
+          {
+            "key": "_os_brand_name",
+            "value": "Ubuntu"
+          },
+          {
+            "key": "_os_brand_version",
+            "value": "24.04"
+          },
+          {
+            "key": "_os_main_category",
+            "value": "Linux"
+          },
+          {
+            "key": "_os_type",
+            "value": "ubuntu"
+          },
+          {
+            "key": "_template_uuid",
+            "value": "01000000-0000-4000-8000-000030240200"
+          }
+        ],
+        "part_of_plan": "yes",
+        "storage": "011a543c-cf25-48e7-b483-7bf1378433f9",
+        "storage_encrypted": "no",
+        "storage_size": 10,
+        "storage_tier": "standard",
+        "storage_title": "nether-spike-builder-de-fra1-disk",
+        "type": "disk"
+      }
+    ]
+  },
+  "tags": {
+    "tag": []
+  },
+  "timezone": "UTC",
+  "title": "nether-spike-builder-de-fra1",
+  "uuid": "00993e83-2a8c-4104-bfb0-5cdfac2f60a2",
+  "video_model": "cirrus",
+  "zone": "de-fra1"
+}

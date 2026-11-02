@@ -1,0 +1,83 @@
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'init-local' at Mon, 02 Nov 2026 22:55:19 +0000. Up 5.14 seconds.
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'init' at Mon, 02 Nov 2026 22:55:24 +0000. Up 9.49 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |         5.22.213.131         | 255.255.252.0 | global | 96:3f:b9:7b:7f:ca |
+ci-info: |  eth0  | True | fe80::943f:b9ff:fe7b:7fca/64 |       .       |  link  | 96:3f:b9:7b:7f:ca |
+ci-info: |   lo   | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128            |       .       |  host  |         .         |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+------------+-----------------+-----------+-------+
+ci-info: | Route | Destination  |  Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+--------------+------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 5.22.212.1 |     0.0.0.0     |    eth0   |   UG  |
+ci-info: |   1   |  5.22.212.0  |  0.0.0.0   |  255.255.252.0  |    eth0   |   U   |
+ci-info: |   2   |  5.22.212.1  |  0.0.0.0   | 255.255.255.255 |    eth0   |   UH  |
+ci-info: |   3   | 94.237.40.9  | 5.22.212.1 | 255.255.255.255 |    eth0   |  UGH  |
+ci-info: |   4   | 94.237.127.9 | 5.22.212.1 | 255.255.255.255 |    eth0   |  UGH  |
+ci-info: +-------+--------------+------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   2   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   3   |  multicast  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:eeCNOmoyU6RsrIVFQaHaTNUQX84cjIxfLHEFsDKHOOY root@nether-spike-de-fra1-apt
+The key's randomart image is:
++---[RSA 3072]----+
+| .+o+*o*=o.      |
+| ..o.o=B+.       |
+|..= +.+o=        |
+|.*...+.. =       |
+|.=Eo    S o      |
+|. * .  . .       |
+| + .  o          |
+|. + .. .         |
+|   =.            |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:UWiq33/+MUGbs8zEGbJGBOu83Jp0CEOz/hgaBRej37k root@nether-spike-de-fra1-apt
+The key's randomart image is:
++---[ECDSA 256]---+
+|        o.o..    |
+|       .o+ o     |
+|      oo= . o o  |
+|      .= B o = = |
+|     .  S = o O  |
+|    .  o + * + + |
+|     ...o E o *  |
+|      .o.= +.  o |
+|      . ..=o...  |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:s6NfLr8fv2NBF9ikU2lbWsXnBWG8fFC9mntJqmJ/Uq0 root@nether-spike-de-fra1-apt
+The key's randomart image is:
++--[ED25519 256]--+
+|             .BB*|
+|             o==B|
+|             +.*B|
+|              *o+|
+|        S    .+o |
+|         o   +.o |
+|        o . o =..|
+|       ..* . Eoo |
+|      ..oo*==.+o |
++----[SHA256]-----+
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'modules:config' at Mon, 02 Nov 2026 22:55:26 +0000. Up 11.80 seconds.
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'modules:final' at Mon, 02 Nov 2026 22:55:28 +0000. Up 13.36 seconds.
+Cloud-init v. 26.1-0ubuntu1~24.04.1 finished at Mon, 02 Nov 2026 22:56:06 +0000. Datasource DataSourceUpCloudLocal.  Up 50.87 seconds
