@@ -36,6 +36,10 @@ _Avoid_: backup, snapshot, world save
 Live access to a running Game Server's log output and command input.
 _Avoid_: terminal, shell, RCON
 
+**Console Relay**:
+The small, separate application that carries a Game Server's Console output from its Runtime to viewers. It is read-only: Console input goes through the Orchestrator.
+_Avoid_: console proxy, log server
+
 **Auto-stop**:
 Ending a Session automatically once the Game Server has been idle for a configured time.
 _Avoid_: autopause, idle shutdown
